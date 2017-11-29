@@ -36,7 +36,7 @@ for (var i=0 ; i<5 ; i++){
 
 var discount = total*0.75;
 
-totalPrice.innerHTML = "$" + total + " <span class='badge progress-bar-info'>25% off</span>"; 
+totalPrice.innerHTML = "$" + discount + " <span class='badge progress-bar-info'>25% off</span>"; 
 //----------------------------------------------------------
 
 var day = new Date(); //get 1-31
